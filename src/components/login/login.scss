@@ -1,0 +1,39 @@
+.login{
+    &__wrapper{
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    &__title{
+        margin-bottom: 20px;
+        font-size: 32px;
+    }
+    &__form{
+        width: 500px;
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__input{
+        width: 100%;
+        margin-bottom: 15px;
+        padding: 10px 15px;
+        background-color: transparent;
+        border: 1px solid #006AFF;
+    }
+    &__btn{
+        padding: 15px 30px;
+        border: none;
+        background-color: #006AFF;
+        border-radius: 10px;
+    }
+    &__btn:hover{
+        opacity: 0.6;
+    }
+    &__btn:active{
+        opacity: 0.8;
+    }
+}

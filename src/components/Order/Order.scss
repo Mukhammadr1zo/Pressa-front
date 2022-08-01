@@ -1,0 +1,400 @@
+.order_span {
+    display: flex;
+    margin-left: 23px;
+}
+.order_home_svg {
+    position: absolute;
+}
+.order_tile {
+    margin-left: 33px;
+    margin-top: 2px;
+}
+.top_container {
+    padding-top: 43px;
+    padding-bottom: 127px;
+}
+.top_container_two {
+    padding-top: 43px;
+    padding-bottom: 127px;
+    margin-top: -122px;
+}
+.order_title_order {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    margin-left: 212px;
+    margin-top: 44px;
+}
+.order_div_order {
+    padding-left: 35px;
+    margin-top: 37px;
+    padding-top: 40px;
+    width: 733px;
+    margin-left: 212px;
+    padding-bottom: 55px;
+    background: #FFFFFF;
+    border: 1px solid rgba(51, 51, 51, 0.1);
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+.order_div_title {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+.order_div_text {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #333333;
+    opacity: 0.4;
+    margin-top: 22px;
+}
+.order_div_select {
+    background: #EBEBEB;
+border-radius: 3px;
+width: 171px;
+height: 50px;
+text-align: center;
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: normal;
+border: none;
+font-size: 14px;
+margin-top: 14px;
+line-height: 17px;
+/* identical to box height */
+
+color: #333333;
+&:focus {
+    outline: none; 
+    border: 1px solid #006AFF;
+}
+}
+.user_normal_div {
+    display: flex;
+    margin-left: 50px;
+}
+.order_normal_title {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #333333;
+}
+.order_normal_check {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    background: #FFFFFF;
+    margin-left: 10px;
+    opacity: 0.5;
+    border: 1px solid rgba(51, 51, 51, 0.7);
+    box-sizing: border-box;
+}
+.order_flex_div {
+    display: flex;
+    margin-top: 28px;
+    margin-left: 222px;
+}
+.order_normal_check:checked {
+    background: #006AFF;
+    opacity: 1;
+}
+.order_date {
+    position: absolute;
+    margin-left: 15px;
+    margin-top: 29px;
+}
+.order_div_select_tis {
+    background: #EBEBEB;
+    border-radius: 3px;
+    width: 171px;
+    height: 50px;
+    text-align: center;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    margin-top: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    padding-left: 11px;
+    border: none;
+    margin-left: 44px;
+    color: #333333;
+    &:focus {
+        outline: none;
+        border: 1px solid #006AFF;
+    }
+}
+.order_date_tis {
+    position: absolute;
+    margin-left: 70px;
+    margin-top: 30px;
+}
+.order_div_text_two {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #333333;
+    margin-bottom: -13px;
+    margin-top: 22px;
+}
+.order_div_text_two_tel {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #333333;
+    margin-bottom: -13px;
+    margin-top: 93px;
+    margin-left: 4px;
+}
+.order_div_text_two_prof {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #333333;
+    margin-bottom: 2px;
+    margin-top: 22px;
+}
+.order_div_text_three {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #333333;
+    margin-left: 343px;
+}
+.order_div_select_prof_direction {
+    background: #EBEBEB;
+    border-radius: 3px;
+    width: 310px;
+    height: 50px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    padding-left: 11px;
+    border: none;
+    color: #333333;
+    margin-top: 11px;
+    &:focus {
+        outline: none;
+        border: 1px solid #006AFF;
+    }
+}
+.order_div_text_link {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #333333;
+    margin-left: 343px;
+}
+.clicked {
+    background-color: #006AFF;
+    color: #FFFFFF;
+    width: 155px;
+    cursor: pointer;
+    border: none;
+    height: 50px;
+    border-radius: 3px;
+    transition: 0.5s ease all;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    margin-top: 30px;
+    line-height: 17px;
+}
+.type_btn {
+    width: 155px;
+    cursor: pointer;
+    border: none;
+    margin-top: 30px;
+    height: 50px;
+    border-radius: 3px;
+    position: relative;
+    background-color: #EBEBEB;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #333333;
+}
+.order_div_select_direction {
+    background: #EBEBEB;
+    border-radius: 3px;
+    width: 310px;
+    height: 50px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    padding-left: 11px;
+    border: none;
+    color: #333333;
+    &:focus {
+        outline: none;
+        border: 1px solid #006AFF;
+    }
+}
+.order_div_select_mini_direction {
+    background: #EBEBEB;
+    border-radius: 3px;
+    width: 310px;
+    height: 50px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    padding-left: 11px;
+    border: none;
+    color: #333333;
+    margin-left: 30px;
+    margin-top: 11px;
+    &:focus {
+        outline: none;
+        border: 1px solid #006AFF;
+    }
+}
+.order_div_select_mini_direction_tel {
+    background: #EBEBEB;
+    border-radius: 3px;
+    width: 310px;
+    height: 50px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    padding-left: 11px;
+    border: none;
+    color: #333333;
+    margin-left: 4px;
+    margin-top: 22px;
+    &:focus {
+        outline: none;
+        border: 1px solid #006AFF;
+    }
+}
+.order_div_option {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px; 
+    color: #333333;
+}
+.order_input_link {
+    width: 310px;
+    height: 50px;
+    background-color: #EBEBEB;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: normal;
+    padding-left: 16px;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 11px;
+    margin-left: 343px;
+    color: #0085FF;
+    text-decoration: underline;
+    border-radius: 3px;
+    border: 1px solid #EBEBEB;
+    &:focus {
+        outline: none;
+        border: 1px solid #006AFF;
+    }
+}
+.order_input_link_prof {
+    width: 310px;
+    height: 50px;
+    background-color: #EBEBEB;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: normal;
+    padding-left: 16px;
+    font-size: 14px;
+    line-height: 17px;
+    border-radius: 3px;
+    border: 1px solid #EBEBEB;
+    position: absolute;
+    margin-left: 343px;
+    margin-top: 10px;
+    &:focus {
+        outline: none;
+        border: 1px solid #006AFF;
+    }
+}
+.order_link_div {
+    margin-top: -75px;
+}
+
+.upload {
+    margin-top: 3rem;
+
+    display: flex;
+    flex-direction: column;
+
+    label {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 1rem;
+
+      width: 160px;
+      height: 50px;
+
+      border-radius: 3px;
+      padding: 10px 12px;
+      cursor: pointer;
+      background: #006aff;
+
+      input[type="file"] {
+        display: none;
+      }
+
+      span {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+
+        color: #ffffff;
+        margin-left: 5px;
+      }
+    }
+    p {
+      color: var(--button-color);
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 19px;
+      opacity: 1;
+    }
+  }

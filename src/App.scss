@@ -1,0 +1,77 @@
+/* abhaya-libre-regular - latin */
+// @font-face {
+//     font-family: 'SF PRO DISPLAY';
+//     font-style: normal;
+//     font-weight: 500;
+//     src: local(''),
+//     url('./Assets/fonts/SFPRODISPLAYBLACKITALIC.woff2') format('woff2'),
+//     url('./Assets/fonts/SFPRODISPLAYBLACKITALIC.woff') format('woff');
+// }
+@font-face {
+    font-family: 'SF PRO DISPLAY';
+    font-style: normal;
+    font-weight: 600;
+    src: local(''),
+    url('./Assets/fonts/SFPRODISPLAYBOLD.woff2') format('woff2'),
+    url('./Assets/fonts/SFPRODISPLAYBOLD.woff') format('woff');
+}
+@font-face {
+    font-family: 'SF PRO DISPLAY';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+    url('./Assets/fonts/SFPRODISPLAYREGULAR.woff2') format('woff2'),
+    url('./Assets/fonts/SFPRODISPLAYREGULAR.woff') format('woff');
+}
+@font-face {
+    font-family: 'SF PRO DISPLAY';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+    url('./Assets/fonts/SFPRODISPLAYMEDIUM.woff2') format('woff2'),
+    url('./Assets/fonts/SFPRODISPLAYMEDIUM.woff') format('woff');
+}
+
+// GLOBAL STYLES
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'SF PRO DISPLAY';
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+    height: 5px;
+    cursor: pointer;
+}
+::-webkit-scrollbar-thumb{
+    background: #006AFF;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-track{
+    box-shadow: inset 0 0 5px #000;
+    border-radius: 10px;
+}
+::selection {
+    background: transparent!important;
+    color: red;
+}
+
+.container{
+    margin: 0 auto;
+    width: 1310px;
+    max-width: 100%;
+    padding: 0 15px;
+}

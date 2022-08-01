@@ -1,0 +1,104 @@
+.footer{
+    background: linear-gradient(0.25turn, #0169FB, #095ACD);
+    &__wrapper{
+        padding: 40px 0 33px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__logo{
+        margin-right: 100px;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 36px;
+        color: #FFFFFF;
+    }
+    &__link{
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        color: #FFFFFF;
+        margin-right: 77px;
+        &:first-child{
+            //
+        }
+    }
+    &__contact{
+        margin-right: 120px;
+        display: flex;
+        align-items: center;
+    }
+    &__phone{
+        &--box{
+            margin-right: 52px;
+            display: flex;
+            align-items: center;
+        }
+        &--icon{
+            margin-right: 10px;
+        }
+        &--num{
+            font-size: 18px;
+            line-height: 21px;
+            color: #FFFFFF;
+        }
+    }
+    &__icons{
+        width: 90px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .footer{
+        &__contact{
+            margin-top: 15px;
+        }
+    }
+}
+@media screen and (max-width: 619px) {
+    .footer{
+        &__wrapper{
+            padding: 25px 0;
+        }
+        &__box{
+            margin: 10px 0;
+        }
+        &__contact{
+            margin-top: 0;
+        }
+    }
+}
+@media screen and (max-width: 440px) {
+    .footer{
+        &__wrapper{
+            flex-direction: column;
+            align-items: center;
+        }
+        &__logo{
+            margin: 0;
+        }
+        &__box{
+            margin: 15px 0;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        &__link{
+            margin: 0;
+        }
+        &__phone--box{
+            margin: 0;
+            margin-bottom: 15px;
+        }
+        &__contact{
+            margin: 0;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+}
