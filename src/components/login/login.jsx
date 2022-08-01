@@ -7,7 +7,7 @@ import './login.scss'
 
 function Login() {
 
-    const [, setToken] = useToken()
+    const [token, setToken] = useToken()
 
     const inputName = useRef()
     const inputPassword = useRef()
@@ -16,6 +16,10 @@ function Login() {
 
     async function loginFunction(e) {
         e.preventDefault()
+
+        if(token){
+            window.location.href = "/admin"
+        }
         fetch('http://pressa-back.herokuapp.com/auth/login', {
             method: "POST",
             headers: {
@@ -39,6 +43,7 @@ function Login() {
                         <input className='login__input' ref={inputName} name='username' type="text" placeholder='Enter your username' />
                         <input className='login__input' ref={inputPassword} name='password' type="password" placeholder='Enter your password' />
                         <button className='login__btn' type='Submit'>Send</button>
+                        
                     </form>
                 </div>
             </div>
