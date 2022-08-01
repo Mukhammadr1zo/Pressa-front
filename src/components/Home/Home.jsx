@@ -229,7 +229,7 @@ function Home() {
                                                     </li>
                                                     <li className='intro__card--item'>
                                                         <img className='intro__card--icon' src={calendar} alt="calendar" />
-                                                        <p className='intro__card--text'>{e.publisher_date}</p>
+                                                        <p className='intro__card--text' >{e.publisher_date}</p>
                                                     </li>
                                                     <li className='intro__card--item'>
                                                         <img className='intro__card--icon' src={clock_icon} alt="clock_icon" />

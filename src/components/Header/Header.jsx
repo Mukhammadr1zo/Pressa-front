@@ -28,7 +28,7 @@ function Header() {
                     </form>
                     <div className='header__list'>
                         <Link className='header__link' to='/about'>Biz haqimizda</Link>
-                        <Link className='header__link' to='#'>Savol va javoblar</Link>
+                        <Link className='header__link' to='admin'>Admin</Link>
                         <Link className='header__link' to='/elon'>+ E'lon berish</Link>
                         <div className='header__bar' onClick={Addclass}>
                             <span className='header__line'></span>
