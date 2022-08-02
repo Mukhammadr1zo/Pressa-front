@@ -32,12 +32,13 @@ function Order() {
     formData.append('publisher_tel1', tel1)
     formData.append('publisher_tel2', tel2)
     formData.append('publisher_link', link)
-    formData.append('img', img[0])
+    formData.append('img', img)
     formData.append('publisher_title', cat)
     formData.append('publisher_description', sub)
     formData.append('publisher_type', type)
     formData.append('publisher_text', text)
     formData.append('publisher_job', job)
+    console.log(img);
 
     function PostOrder(e) {
         e.preventDefault()
@@ -146,7 +147,7 @@ function Order() {
                                 <div className="upload">
                                     <span>Rasm yuklash</span>
                                     <label className="custom-upload">
-                                    <input name="upload" onChange={evt=> setImg(evt.target.files)}  type="file" />
+                                    <input name="upload" onChange={evt=> setImg(evt.target.files[0])}  type="file" />
                                     <img src={upload} alt="upload" />
                                     <span className="file-name">Upload img</span>
                                     <span className="zmdi zmdi-upload"></span>
